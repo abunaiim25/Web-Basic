@@ -1,0 +1,95 @@
+
+.mh-skills .mh-professional-skill{
+   padding-right: 60px;
+   color: white;
+}
+
+.mh-skills .mh-professional-skill{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: sans-serif;
+}
+
+
+.mh-professional-skills{
+    padding-left: 20%;
+}
+.mh-professional-skills h3{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: sans-serif;
+}
+
+
+.mh-professional-progress li{
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.progress-skills{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    background: #151726;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.progress-title{
+    width: 100%;
+    height: auto;
+}
+
+.progress-title H3{
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px;
+}
+
+.progress{
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 2px 2px #4f4c4c;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    border-radius: 20px;
+    border: 1px solid #000;
+    animation: animate-positive 2s;
+}
+
+@-webkit-keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}
+
+@keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}

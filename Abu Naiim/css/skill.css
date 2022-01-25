@@ -1,0 +1,44 @@
+
+header{
+    height: 400px;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    
+ }
+
+
+
+ header nav ul li a{
+    
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 1rem;
+    padding-left: 4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+header nav ul li a:hover{
+    color: var(--primary);
+}
+
+
+ .middel{
+    height: 400px;
+    position: relative;
+ }
+ header .header-about{   
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    font-size: 4rem;
+ }
+
+
+
+ 

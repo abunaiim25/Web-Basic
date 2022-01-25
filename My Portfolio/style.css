@@ -1,0 +1,374 @@
+@import 'utilities.css';
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606
+}
+
+
+bodyN{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webKit-font-smotthing:antialiased;
+
+}
+
+
+
+header{
+    background-image: url("./images/bg.jpg");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+}
+
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 1rem;
+    text-transform: uppercase;
+    padding-left: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+}
+
+
+header nav {
+    padding: 2rem 0;
+}
+
+
+
+
+
+
+.naiim{
+    padding: 6rem 0;
+
+}
+
+.naiim .left img{
+    width: 250px;
+}
+
+.naiim .right{
+    color: var(--pure);
+}
+
+.naiim .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    font-family: sans-serif;
+}
+
+.naiim .right h1{
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    font-family: sans-serif;
+}
+
+.naiim .right h1 span{
+    color: var(--primary);
+}
+
+.naiim .right p{
+    line-height: 1.5;
+    font-family: sans-serif;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+.about{
+    padding: 6rem 0;
+}
+
+.about .about-me-img{
+height: 250px;
+}
+
+.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.about h1 span{
+    color: var(--primary)
+}
+
+.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.about p{
+font-family: 'Lato', sans-serif;
+color: var(--ternary);
+line-height: 1.5;
+margin-bottom: 2rem;
+}
+
+.about .social{
+    display: flex;
+}
+.about .social a{
+    background: var(--dark);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    transition: all .3 ease;
+}
+.about .social a:hover{
+    background: var(--primary);
+}
+
+.about .social a img{
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem;
+}
+
+
+
+
+
+section.education{
+    margin-top: 2rem;
+    font-family: sans-serif;
+    margin-bottom: 3rem;
+}
+
+section.education h1{
+   margin-bottom: .6rem;
+
+}
+
+section.education td{
+    padding: .5rem;
+    text-align: center;
+}
+
+section.education th{
+    background: cyan;
+    padding: .5rem;
+}
+
+
+section.program{
+font-family: sans-serif;
+margin-bottom: 3rem;
+}
+
+
+section.program h1{
+margin-bottom: .5rem;
+}
+
+
+section.program li{
+    margin-bottom: .5rem;
+    margin-left: 1.5rem;
+    }
+
+
+section.hobies{
+        font-family: sans-serif;
+        margin-bottom: 3rem;
+        }
+        
+ section.hobies h1{
+margin-bottom: .5rem;
+ }
+
+
+ section.hobies li{
+    margin-bottom: .5rem;
+    margin-left: 1.5rem;
+    }
+
+
+    section.goal{
+        font-family: sans-serif;
+        margin-bottom: 3rem;
+        }
+
+        section.goal h1{
+            margin-bottom: .5rem;
+             }
+
+
+
+             section.last{
+                 background: black;
+               
+             }
+
+             section.last h1{
+               color: white;
+               padding: 5rem;
+               text-align: center;
+               font-family: sans-serif;
+            }
+
+
+
+            .section-heading{
+                color: var(--secondary);
+                text-align: center;
+                margin-bottom: 1rem;
+                line-height: 0.5;
+            }
+
+
+            section.information{
+                background:var(--light) ;
+            }
+
+
+        section.information h1{
+            padding: 4rem;
+            padding-bottom: 2rem;
+            font-family: sans-serif;
+        }
+
+        section.information h1 span{
+            color: var(--primary);
+        }
+
+        section.information .info pre{
+            font-family: sans-serif;
+        }
+
+
+
+
+        section.edu{
+            margin-bottom: 4rem;
+        }
+        section.edu h1{
+            padding: 4rem;
+            padding-bottom: 2rem;
+            font-family: sans-serif;
+        }
+
+        section.edu h1 span{
+            color: var(--primary);
+        }
+
+        section.edu .info pre{
+            font-family: sans-serif;
+        }
+
+
+
+
+
+        section.skill{
+            padding: 3rem;
+            background: var(--dark);
+        }
+
+        section.skill .card-wrapper img{
+            width: 70px;
+            height: 70px;
+        }
+    
+        section.skill .card-wrapper{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 2rem;
+        }
+
+        section.skill .card-wrapper .card{
+            background: var(--pure); 
+        }
+
+
+
+
+
+
+
+        section.program{
+            padding: 3rem;
+            background: var(--light);
+        }
+
+        section.program h1{
+            padding: 2rem;
+        }
+
+        
+        section.program h1 span{
+            color: var(--primary);
+        }
+
+
+
+        
+
+        section.hobies h1{
+            padding: 2rem;
+        }
+
+        
+        section.hobies h1 span{
+            color: var(--primary);
+        }
+
+
+
+
+        section.goal{
+            background: var(--light);
+            padding: 3rem;
+        
+        }
+
+        section.goal h1{
+            padding: 2rem;
+        }
+
+        section.goal h1 span{
+            color: var(--primary);
+        }
+
+        section.goal p{
+           line-height: 1.3rem;
+        }
+
+
+
