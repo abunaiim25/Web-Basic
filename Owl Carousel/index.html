@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <!--1.Own Carousel Min.CSS----https://cdnjs.com/libraries/owl-carousel-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--2. Owl Carosel Min Theme.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
+    integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Owl Carousel with Bootstrap</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .item img{
+      height: 200px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <section>
+    <div class="container-fluid">
+      <h1 class="text-center fw-bold display-1 mb-3">Owl Carousel</h1>
+      <div class="row">
+        <div class="owl-carousel owl-theme">
+
+          <div class=" item mb-4 p-2">
+            <div class="card border-0 shadow">
+              <img src="./image/Diu.jpg" alt="image" class="card-img-top">
+
+              <div class="card-body">
+                <h4>Owl Carousel</h4>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="item mb-4 p-2">
+            <div class="card  border-0 shadow">
+              <img src="./image/Diu.jpg" alt="image" class="card-img-top">
+
+              <div class="card-body">
+                <h4>Owl Carousel</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="item mb-4  p-2">
+            <div class="card  border-0 shadow">
+              <img src="./image/Diu.jpg" alt="image" class="card-img-top">
+
+              <div class="card-body">
+                <h4>Owl Carousel</h4>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="item mb-4 p-2">
+            <div class="card  border-0 shadow">
+              <img src="./image/Diu.jpg" alt="image" class="card-img-top">
+
+              <div class="card-body">
+                <h4>Owl Carousel</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="item mb-4 p-2">
+            <div class="card  border-0 shadow">
+              <img src="./image/Diu.jpg" alt="image" class="card-img-top">
+
+              <div class="card-body">
+                <h4>Owl Carousel</h4>
+              </div>
+            </div>
+          </div>
+
+
+          <!--item ends-->
+
+          
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+  <!--let's include cdn files-->
+
+  <!--0. Jquery Cdn-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <!--1.Own Carousel Min.js----https://cdnjs.com/libraries/owl-carousel-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+
+</body>
+
+</html>

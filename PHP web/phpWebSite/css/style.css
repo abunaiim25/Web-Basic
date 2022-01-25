@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Gill Sans", sans-serif;
+}
+
+
+.carousel-inner .carousel-item img{
+    width: 100%;
+    height: 80vh; ;
+}
+
+section.about a{
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+}
+
+
+section.about .aboutimg{
+    width: 100%;
+    height: 250px !important;
+}
+
+
