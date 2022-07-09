@@ -276,6 +276,39 @@ footer .copyright a:hover{
 
 
 
+/*=====back to top button (using JS)=====*/
+html{
+    scroll-behavior: smooth;
+}
+
+.to-top{
+    position:fixed;
+    right: 32px;
+    bottom: 16px;
+    background-color: #fb774b;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff!important;
+    /*middel*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none!important;
+    /**/
+    pointer-events: none;
+    transition: all .5s;
+    /*hide*/
+    opacity: 0;
+}
+
+.to-top.active_top{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+
 
 
 
